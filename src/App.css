@@ -1,0 +1,101 @@
+
+.total{
+  position: fixed;
+  top: 100px;
+  left: 400px;
+  width: 600px;
+  text-align: center;
+    
+    
+}
+.underline{
+  width: 70px;
+  height: 2px;
+  background-color: rgb(62, 139, 203);
+  position: relative;
+  left: 270px;
+  bottom: 10px;
+}
+.main-review{
+  box-shadow: 0px 0px 10px rgb(62, 139, 203);
+  padding: 20px;
+  background-color: white;
+  margin-top: 35px;
+  
+}
+
+.job{
+  font-weight: 700;
+  text-transform: uppercase;
+  color:rgb(62, 139, 203) ;
+}
+.text{
+  font-weight: 300;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.prev{
+color: rgb(62, 139, 203);
+font-size: 15px; ;
+margin: 10px;
+border: none;
+border-radius: 5px;
+}
+
+.next{
+color: rgb(62, 139, 203);
+font-size: 15px; 
+margin: 10px;
+border: none;
+border-radius: 5px;
+}
+
+.random{
+color: rgb(62, 139, 203);
+font-size: 15px ;
+margin: 5px;
+border: none;
+border-radius: 5px;
+padding: 5px;
+}
+.images{
+  position: relative;
+  left: 10px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.prev:hover{
+  background-color: rgb(62, 139, 203);
+  color: lightgray;
+  font-size: 15px; ;
+  
+}
+
+.next:hover{
+  background-color: rgb(62, 139, 203);
+  color: lightgray;
+  font-size: 15px; ;
+  
+}
+
+.random:hover{
+  background-color: rgb(62, 139, 203);
+  color: lightgray;
+}
+
+.quote{
+  color: white ;
+  position: relative;
+  bottom: 79px;
+  right: 95px;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+  background-color:rgb(62, 139, 203);
+  font-size: 10px;
+  border-color: rgb(62, 139, 203);
+}
